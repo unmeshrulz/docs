@@ -10,7 +10,6 @@ This documentation is organized into the following sections:
    developer/dronahq-sdk-overview
    developer/quick-start
    developer/getting-started
-   developer/sample-micro-apps
    developer/api-documentation
    developer/development-tools
    developer/debugging-apps
