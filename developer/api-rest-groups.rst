@@ -2,7 +2,7 @@ Groups
 ========
 
 This family of DronaHQ Plugin REST APIs provide read/write access to the DronaHQ group(s).
-It provides methods to perform the following action(s)-
+It provide methods to perform the following action(s)-
 
 	- :ref:`put-users-to-grp`
 	
@@ -56,7 +56,7 @@ On error, the header status code is an error code and the response body contains
 
    <a href="api-documentation-plugin-rest-response-status-code.html#error-response-body" target="_blank">error object</a>
    
-Please note that even when the HTTP status code in the response header is 200 OK,  *assigning or removing *users from a group might fail for other reasons such as the user is not a valid user, or the API itself failed to perform the operation. In such cases, the response body would contain an array of the invalid users in the invalid_users field and an array of users for whom the API operation failed in the failed_users field.
+Please note that even when the HTTP status code in the response header is 200 OK,  *assigning or removing* users from a group might fail for other reasons such as the user is not a valid user, or the API itself failed to perform the operation. In such cases, the response body would contain an array of the invalid users in the invalid_users field and an array of users for whom the API operation failed in the failed_users field.
 
 **Success response data**
 

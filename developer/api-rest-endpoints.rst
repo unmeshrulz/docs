@@ -6,5 +6,6 @@ Api Endpoints
 .. toctree::
    :maxdepth: 1
    
-   api-documentation-plugin-rest-users
-   api-documentation-plugin-rest-groups
+   api-rest-users
+   api-rest-groups
+   api-rest-notification

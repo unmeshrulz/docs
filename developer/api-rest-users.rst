@@ -1,7 +1,7 @@
 Users
 ======
 This family of DronaHQ Plugin REST APIs provide read/write access to the DronaHQ users.
-It provides methods to perform the following action(s)-
+It provide methods to perform the following action(s)-
 
 	- :ref:`get-all-users`
 	- :ref:`get-user`
@@ -53,7 +53,7 @@ This API returns a list of users within the |scope| of the *tokenkey*, ordered c
 
 **RESPONSE FORMAT**
 
-On error, the header status code is an error code and the response body contains an |error object|
+On error, the header status code is an error code and the response body contains an |error object|.
 
 .. |error object| raw:: html
 

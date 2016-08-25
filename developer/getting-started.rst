@@ -9,11 +9,16 @@ With DronaHQ you can not only create new applications, but seamlessly integrate 
 
 Whether you are creating a new application on DronaHQ or integrating an existing HTML5 application with DronaHQ , you need to have the following prerequisites -
 
-	- A registered `DronaHQ`_ account.
-	- `dronahq.js`_ - the DronaHQ javascript SDK.
+	- A registered |DronaHQ| account.
+	- |dronahq.js| - the DronaHQ javascript SDK.
 
-.. _DronaHQ: http://www.dronahq.com/
-.. _dronahq.js: https://github.com/dronahq/dronahq.js
+.. |DronaHQ| raw:: html
+
+   <a href="http://www.dronahq.com/" target="_blank">DronaHQ</a>
+   
+.. |dronahq.js| raw:: html
+
+   <a href="https://github.com/dronahq/dronahq.js" target="_blank">dronahq.js</a>
 
 **Why do you need A registered DronaHQ account?**
 
@@ -21,8 +26,12 @@ The DronaHQ Administrator Console allows you to create, deploy and manage your a
 
 A part of the  DronaHQ SDK comes in the form of Web APIs. Authentication of these APIs is done via a *tokenkey*. The *tokenkey* can either be of global/account scope or scoped to the limits of a plugin and can be generated only through the DronaHQ Administrator Console.
 
-:ref:`Read more <ref-rest-api-auth>` about the scope of your *tokenkey*.
+|Read more| about the scope of your *tokenkey*.
 
+.. |Read more| raw:: html
+
+   <a href="api-rest-auth.html" target="_blank">Read more</a>
+   
 **Why do you need the dronahq.js?**
 
 The dronahq.js provides a set of APIs  that allow an application to interact exclusively with the DronaHQ Container App and also with the device hardware, which makes its inclusion necessary in your application.
@@ -32,7 +41,7 @@ The dronahq.js provides a set of APIs  that allow an application to interact exc
 A new application
 ----------------------------------
 
-	- :ref:`Quick start <quick-start>` by creating a new application that displays the message -
+	- |Quick start| by creating a new application that displays the message -
 	
 	.. image:: images/sample-qs.png
 		:height: 100px
@@ -45,6 +54,10 @@ A new application
 .. |sample applications| raw:: html
 
    <a href="https://github.com/dronahq/samples" target="_blank">sample applications</a>
+   
+.. |Quick start| raw:: html
+
+   <a href="quick-start.html" target="_blank">Quick start</a>
 	
 .. _existing-app:
 

@@ -5,20 +5,26 @@ Quick Start
 
 The purpose of Quick Start is to help you build a very simple HTML5 web application and deploy it inside the DronaHQ Client App container. This helps developers establish a basic foundation for developing and deploying apps on the DronaHQ platform.
 
-As mentioned before, in the :ref:`DronaHQ SDK Overview <dronahq-sdk-overview>` guide, then DronaHQ platform's SDK consists of two major segments: 
+As mentioned before, in the |DronaHQ SDK Overview| guide, then DronaHQ platform's SDK consists of two major segments: 
 
 	- Device APIs
 	- REST APIs. 
 
+.. |DronaHQ SDK Overview| raw:: html
+	
+	<a href="sdk-overview.html" target="_blank">DronaHQ SDK Overview</a>
+	
 While DronaHQ Rest APIs are to be consumed via HTTP requests,  using the Device APIs requires your application to include dronahq.js in the header section of your HTML page.
 
 .. code:: html
 	
 	<script src="js/dronahq.js"></script>
 	
-You can get the latest copy of dronahq.js from our `GitHub repository`_ , and place it anywhere in your application's resources. 
+You can get the latest copy of dronahq.js from our |GitHub repository| , and place it anywhere in your application's resources. 
 
-.. _GitHub repository: https://github.com/dronahq
+.. |GitHub repository| raw:: html
+	
+	<a href="https://github.com/dronahq" target="_blank">GitHub repository</a>
 
 The following properties allow you to detect what platform your micro-app is running on, if you need to add platform specific features/content in your micro-app.
 
@@ -105,7 +111,7 @@ Steps to Build
 		})();
 
 	- Step 5: Include all files in the application's root directory to a .ZIP file.
-	- Step 6: :ref:`Deploy your application <micro-app-deployment>` as a .ZIP package named "**MyQS**".
+	- Step 6: |Deploy your application| as a .ZIP package named "**MyQS**".
 
 Now open the client app, and on the homescreen a  micro-app icon named "**MyQS**" would be available. Click the micro-app to view your application.
 
@@ -114,6 +120,10 @@ You can also get started by trying out more of our |sample applications|.
 .. |sample applications| raw:: html
 
    <a href="https://github.com/dronahq/samples" target="_blank">sample applications</a>
+   
+.. |Deploy your application| raw:: html
+
+   <a href="micro-app-deployment.html" target="_blank">Deploy your application</a>
 
 
 

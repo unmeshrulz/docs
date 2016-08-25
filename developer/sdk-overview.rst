@@ -1,4 +1,4 @@
-.. _dronahq-sdk-overview:
+.. _sdk-overview:
 
 DronaHQ SDK Overview
 ====================
