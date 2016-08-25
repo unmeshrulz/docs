@@ -39,7 +39,7 @@ This API can be used to send notification to one or more users within the |scope
 
 .. |authentication| raw:: html
 
-   <a href="api-documentation-plugin-rest-auth.html" target="_blank">authentication</a>
+   <a href="api-rest-auth.html" target="_blank">authentication</a>
 
 **RESPONSE FORMAT**
 

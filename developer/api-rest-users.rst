@@ -51,7 +51,7 @@ This API returns a list of users within the |scope| of the *tokenkey*, ordered c
 
 .. |authentication| raw:: html
 
-   <a href="api-documentation-plugin-rest-auth.html" target="_blank">authentication</a>
+   <a href="api-rest-auth.html" target="_blank">authentication</a>
 
 **RESPONSE FORMAT**
 

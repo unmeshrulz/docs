@@ -85,7 +85,7 @@ The REST APIs  portion of the DronaHQ help micro-apps to interact with the Drona
 
 .. |authentication| raw:: html
 
-	<a href="api-documentation-plugin-rest-auth.html" target="_blank">authentication</a>
+	<a href="api-rest-auth.html" target="_blank">authentication</a>
 	
 The REST APIs include the following methods:
 

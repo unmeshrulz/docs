@@ -44,7 +44,7 @@ This API can be used to assign a list of users to a group and can also be used t
 
 .. |authentication| raw:: html
 
-   <a href="api-documentation-plugin-rest-auth.html" target="_blank">authentication</a>
+   <a href="api-rest-auth.html" target="_blank">authentication</a>
    
 Please note that either assign or remove should contain at least one user id.
 
