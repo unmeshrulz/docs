@@ -7,6 +7,8 @@ It provide methods to perform the following action(s)-
 	- :ref:`get-user`
 	- :ref:`create-users`
 	- :ref:`assign-grp-user`
+	- :ref:`activate-users`
+	- :ref:`deactivate-users`
 	
 .. _get-all-users:
 
@@ -293,3 +295,83 @@ On error, the header status code is an error code and the response body contains
 | failed_groups     | array       | An integer array of unique id of groups on which the operation of assigning/removing failed.   | 
 |                   |             | Retry again with these groups, if problem persists contact our support desk.                   | 
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
+
+.. _activate-users:
+
+Activate Users
+----------------
+This API activates registered users based on the |scope| of the *tokenkey.*
+
+**ENDPOINT**
+:code:`DELETE https://plugin.api.dronahq.com/users`
+
+**REQUEST PARAMETER**
+
+**Request Body Data**
+
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| Parameter         | Value Type  | Description                                                                                    |
++===================+=============+================================================================================================+
+| token_key         | string      | *Required.* Your API key. Check |authentication| for more details                              |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| list_user_email   | array       | *Required.* A string array of the users email. A maximum of 50 IDs can be sent in one request. |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+
+**RESPONSE FORMAT**
+
+On error, the header status code is an error code and the response body contains an |error object|. On success, the HTTP status code in the response header is 200 OK and the response body contains a JSON object.
+
+**Success Response Data**
+
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| Parameter         | Value Type  | Description                                                                                    |
++===================+=============+================================================================================================+
+| users_success     | integer     | A string array of user email whose account has been successfully activated.                    |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| users_invalid     | array       | A string array of invalid user email.                                                          |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| users_not_found   | array       | A string array of user not found in the API key scope.                                         |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| users_failed	    | array       | A string array of user email on which the operation of activation failed.                      |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+
+.. _deactivate-users:
+
+Deactivate Users
+-----------------
+
+This API deactivates users based on the |scope| of the *tokenkey.*
+
+**ENDPOINT**
+:code:`DELETE https://plugin.api.dronahq.com/users`
+
+**REQUEST PARAMETER**
+
+**Request Body Data**
+
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| Parameter         | Value Type  | Description                                                                                    |
++===================+=============+================================================================================================+
+| token_key         | string      | *Required.* Your API key. Check |authentication| for more details                              |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| list_user_email   | array       | *Required.* A string array of the users email. A maximum of 50 IDs can be sent in one request. |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+
+**RESPONSE FORMAT**
+
+On error, the header status code is an error code and the response body contains an |error object|. On success, the HTTP status code in the response header is 200 OK and the response body contains a JSON object.
+
+**Success Response Data**
+
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| Parameter         | Value Type  | Description                                                                                    |
++===================+=============+================================================================================================+
+| users_success     | integer     | A string array of user email whose account has been successfully deactivated.                  |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| users_invalid     | array       | A string array of invalid user email.                                                          |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| users_not_found   | array       | A string array of user not found in the API key scope.                                         |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+| users_failed      | array       | A string array of user email on which the operation of deactivation failed.                    |
++-------------------+-------------+------------------------------------------------------------------------------------------------+
+
