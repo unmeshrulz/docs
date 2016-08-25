@@ -12,6 +12,4 @@ This documentation is organized into the following sections:
    developer/getting-started
    developer/sample-micro-apps
    developer/api
-   developer/development-tools
    developer/debugging-apps
-   developer/micro-app-deployment
