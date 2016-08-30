@@ -20,11 +20,11 @@ While DronaHQ Rest APIs are to be consumed via HTTP requests,  using the Device 
 	
 	<script src="js/dronahq.js"></script>
 	
-You can get the latest copy of dronahq.js from our |GitHub repository| , and place it anywhere in your application's resources. 
+You can get the latest copy of |dronahq.js| from our GitHub repository, and place it anywhere in your application's resources. 
 
-.. |GitHub repository| raw:: html
+.. |dronahq.js| raw:: html
 	
-	<a href="https://github.com/dronahq" target="_blank">GitHub repository</a>
+	<a href="https://github.com/dronahq/dronahq.js/releases" target="_blank">dronahq.js</a>
 
 The following properties allow you to detect what platform your micro-app is running on, if you need to add platform specific features/content in your micro-app.
 
