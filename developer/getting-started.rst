@@ -15,7 +15,7 @@ Whether you are creating a new application on DronaHQ or integrating an existing
    
 .. |dronahq.js| raw:: html
 
-   <a href="https://github.com/dronahq/dronahq.js" target="_blank">dronahq.js</a>
+   <a href="https://github.com/dronahq/dronahq.js/releases" target="_blank">dronahq.js</a>
 
 **WHY A REGISTERED ACCOUNT?**
 

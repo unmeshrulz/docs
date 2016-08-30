@@ -51,11 +51,11 @@ With this in mind, lets start by making a simple application that displays the d
    
 **Steps to Build**
 
-.. |github| raw:: html
+.. |source code| raw:: html
 	
-	<a href="https://github.com/dronahq/samples/tree/master/the-user-sso" target="_blank">github</a>
+	<a href="https://github.com/dronahq/samples/tree/master/the-user-sso" target="_blank">source code</a>
 	
-You can follow the steps mentioned below or get the source code from the |github| repository.
+You can follow the steps mentioned below or get the |source code| from the github repository.
 	
 	- Step 1: Create the app project folder "the-user-sso". This will be the application's root directory.
 	- Step 2: Add index.html, the web page that hosts the application, to the application's root directory.
