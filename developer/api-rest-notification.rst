@@ -1,7 +1,6 @@
 Notification
 ===============
-This family of DronaHQ Plugin REST APIs provide access to the DronaHQ notifications.
-It provide methods to perform the following action(s)-
+DronaHQ Plugin REST API provide access to the DronaHQ notifications and provide methods to perform the following action(s)-
 
 	- :ref:`send-notification`
 	- :ref:`delete-notification`
@@ -18,7 +17,10 @@ This API can be used to send notification to one or more users within the |scope
    <a href="api-documentation-plugin-rest-auth.html" target="_blank">scope</a>
    
 **ENDPOINT**
-:code:`PUT https://plugin.api.dronahq.com/v2/notifications`
+
+.. code:: text
+
+	PUT /v2/notifications
 
 **Request Parameters**
 
@@ -71,7 +73,10 @@ Delete Notification
 This API can be used to deletes a notification on the basis of notification id and content id within the |scope| of its *tokenkey*.
 
 **ENDPOINT**
-:code:`DELETE https://plugin.api.dronahq.com/notifications/{noti_id}`
+
+.. code:: text 
+
+	DELETE /notifications/{noti_id}
 
 **REQUEST PARAMETERS**
 
@@ -91,8 +96,7 @@ This API can be used to deletes a notification on the basis of notification id a
 | token_key | string      | Your API key. Check |authentication| for more details.|
 +-----------+-------------+-------------------------------------------------------+
 
-Response Format
---------------------
+**Response Format**
 
 On error, the header status code is an error code and the response body contains an |error object|.
 

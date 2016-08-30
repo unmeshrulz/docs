@@ -1,16 +1,13 @@
 Getting Started
 ===============
-	- :ref:`A new application <quick-start-with-new-app>`
-	- :ref:`An existing application <existing-app>`
-   
-DronaHQ provides robust APIs that allow applications to have various capabilities when it runs inside the DronaHQ Container App. DronaHQ's APIs are framework independent and can be used by any web application regardless of framework(s) that application is written with.
+DronaHQ provides a robust set of REST APIs and Device APIs that allow mobile developers to quickly add capabilities such as push notifications, or access to device hardware for apps that run inside the DronaHQ Client Container. DronaHQ's APIs are framework independent and can be used by any web application regardless of HTML5 framework(s) that the application is written with.
 
-With DronaHQ you can not only create new applications, but seamlessly integrate your exisitng HTML5 mobile application with the DronaHQ platform. 
+With DronaHQ you not only can create new applications, but also integrate any existing HTML5 mobile applications to deploy within the DronaHQ platform. 
 
-Whether you are creating a new application on DronaHQ or integrating an existing HTML5 application with DronaHQ , you need to have the following prerequisites -
+Whether you are creating a new application on DronaHQ or integrating an existing HTML5 application with DronaHQ , you need to -
 
-	- A registered |DronaHQ| account.
-	- |dronahq.js| - the DronaHQ javascript SDK.
+	- have a registered |DronaHQ| account.
+	- add the |dronahq.js|, the DronaHQ javascript SDK, to your application.
 
 .. |DronaHQ| raw:: html
 
@@ -20,32 +17,32 @@ Whether you are creating a new application on DronaHQ or integrating an existing
 
    <a href="https://github.com/dronahq/dronahq.js" target="_blank">dronahq.js</a>
 
-**Why do you need A registered DronaHQ account?**
+**WHY A REGISTERED ACCOUNT?**
 
-The DronaHQ Administrator Console allows you to create, deploy and manage your application along with many other admin features. So, it goes without saying that you must have a registered DronaHQ account.
+The DronaHQ Administrator Console allows you to create, deploy and manage your application along with many other admin features. So, in order to deploy and manage your applications, you must have a registered DronaHQ account.
 
-A part of the  DronaHQ SDK comes in the form of Web APIs. Authentication of these APIs is done via a *tokenkey*. The *tokenkey* can either be of global/account scope or scoped to the limits of a plugin and can be generated only through the DronaHQ Administrator Console.
+A part of the  DronaHQ SDK comes in the form of Web APIs. Authentication of these APIs is done via a **token key**. The **token key** can either be of global/account scope or scoped to the limits of a plugin and can be generated only through the DronaHQ Administrator Console.
 
-|Read more| about the scope of your *tokenkey*.
+|Read more| about the scope of your **token key**.
 
 .. |Read more| raw:: html
 
    <a href="api-rest-auth.html" target="_blank">Read more</a>
    
-**Why do you need the dronahq.js?**
+**WHY DO I NEED DRONAHQ.JS?**
 
 The dronahq.js provides a set of APIs  that allow an application to interact exclusively with the DronaHQ Container App and also with the device hardware, which makes its inclusion necessary in your application.
 
 .. _quick-start-with-new-app:
 
-A new application
+Quick start with a new application
 ----------------------------------
 
-	- |Quick start| by creating a new application that displays the message -
+	- |Quick start| by creating a new application that displays the detail of the signed-in user -
 	
-	.. image:: images/sample-qs.png
-		:height: 100px
-		:width: 500 px
+	.. image:: images/qs.png
+		:height: 300px
+		:width: 250 px
 		:scale: 100 %
 		:align: center
 		
@@ -58,9 +55,4 @@ A new application
 .. |Quick start| raw:: html
 
    <a href="quick-start.html" target="_blank">Quick start</a>
-	
-.. _existing-app:
-
-An existing application
-----------------------------------
 

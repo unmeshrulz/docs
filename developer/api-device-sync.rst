@@ -2,7 +2,6 @@
 
 Sync
 ====
-
 This family of device APIs provided by dronahq.js allows a micro-app an easy way to submit data in background via http requests. 
 
 It has the following method(s) -
@@ -20,9 +19,9 @@ It also provide the following event(s) -
 upload()
 --------
 
-This method uploads a JSON to a remote url.  Optionally you can also upload a image file along with the request. The JSON data is sent in the request body. The app will keep trying the data upload until the server returns a http 2XX response. For failed requests, the app will keep trying to upload the data in every 1 hour.
+This method uploads JSON data to a remote URL.  Optionally you can also upload an image file using this request. The JSON data is sent in the request body. By invoking this method, the micro-app will keep trying the data upload until the server returns an http 2XX response. For failed requests, the app will keep trying to upload the data in every 1 hour.
 
-**Note** - Calling this method will only submit the request to the Container App. Actual upload will happen when the sync service is triggered the next time. You can call the refresh method to trigger the sync service.
+Please note that calling this method only submits the request to the Container App. Actual upload happens when the sync service is triggered the next time. You can call the refresh method to trigger the sync service.
 
 
 **REQUEST PARAMETERS**
@@ -74,7 +73,7 @@ This method uploads a JSON to a remote url.  Optionally you can also upload a im
 refresh()
 ---------
 
-Calling this method will wake up the sync service and trigger -the download and- any pending upload.
+Calling this method will wake up the sync service and triggers any pending upload.
 
 .. code:: javascript
 	
@@ -87,7 +86,7 @@ Calling this method will wake up the sync service and trigger -the download and-
 getpendinguploadcount()
 ------------------------
 
-This method gives a count of all the pending upload requests
+This method gives a count of all the pending upload requests.
 
 .. code:: javascript
 
@@ -103,7 +102,7 @@ uploadcomplete
 	DronaHQ.sync.uploadcomplete 
 
 
-This event is triggered whenever the sync service is finished processing the current pending requests. This event is triggered even if few requests fail to complete successfully. This requests will be retried next time the service runs. This event can be used in 
+This event is triggered whenever the sync service has finished processing all pending requests, even if a few requests have failed to complete successfully. The failed requests are retried next time the service runs.
 
 .. code:: javascript
 	

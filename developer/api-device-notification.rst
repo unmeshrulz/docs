@@ -3,8 +3,9 @@
 Notification
 ============
 
-This family of device APIs provided by dronahq.js can be used to interact with the notification data received on the device sent by a micro-app. 
-All notifications are received in the inbox of the container app. On clicking a notification the micro-app is invoked and the unique id of the notification is appended as query sting, which can be used to perform actions like fetching the relevant notification data.
+This family of device APIs provided by dronahq.js can be used to interact with the notification data received by a micro-app.
+
+All notifications are received in the inbox of the container app by default. On clicking a notification the micro-app is invoked and the unique id of the notification is appended as query sting, which can be used to perform actions such as fetching the relevant notification data.
 
 It has the following method(s) -
 
@@ -16,7 +17,7 @@ It has the following method(s) -
 getnotification()
 -----------------
 
-This method gets notification based on a notification id
+This method gets notification based on a notification id.
 
 .. code:: javascript
 
@@ -50,7 +51,7 @@ This method gets notification based on a notification id
 getallnotification()
 --------------------
 
-This method gets all unread notification. Any notification which has not been retrieved by getNotification() is considered as unread.
+This method generates a list of all unread notifications. Any notification that is not retrieved by getNotification() is to be considered as unread.
 
 .. code:: javascript
 

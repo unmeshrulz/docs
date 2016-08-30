@@ -6,7 +6,7 @@ DronaHQ comes with few popular cordova plugins which will allow to you to intera
 
 Camera
 ------
-This plugin defines a global navigator.camera object, which provides an API for taking pictures and for choosing images from the device's image library.
+This plugin defines a global :code:`navigator.camera` object, which provides an API for taking pictures and for choosing images from the device's image library.
 
 	- **Documentation:**  |https://github.com/dronahq/cordova-plugin-camera|
 
@@ -36,7 +36,7 @@ Allows download and upload of files to and from the device
 	
 InAppBrowser
 -------------
-Provides a web browser view using  cordova.InAppBrowser.open() method.
+Provides a web browser view using :code:`cordova.InAppBrowser.open()` method.
 
 	- **Documentation:** |https://github.com/dronahq/cordova-plugin-inappbrowser|
 	

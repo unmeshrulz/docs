@@ -2,7 +2,6 @@
 
 User
 ====
-
 This family of device APIs provided by dronahq.js helps in interacting with the user currently signed-in to Container App.
 
 It has the following method(s) -

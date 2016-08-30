@@ -11,5 +11,6 @@ This documentation is organized into the following sections:
    developer/quick-start
    developer/getting-started
    developer/sample-micro-apps
-   developer/api
+   developer/api-device
+   developer/api-rest
    developer/debugging-apps

@@ -1,8 +1,7 @@
 Groups
 ========
 
-This family of DronaHQ Plugin REST APIs provide read/write access to the DronaHQ group(s).
-It provide methods to perform the following action(s)-
+DronaHQ Plugin REST API provide read/write access to DronaHQ group(s) through the following action(s)-
 
 	- :ref:`put-users-to-grp`
 	
@@ -18,7 +17,10 @@ This API can be used to assign a list of users to a group and can also be used t
    <a href="api-documentation-plugin-rest-auth.html" target="_blank">scope</a>
    
 **ENDPOINT**
-:code:`POST https://plugin.dronahq.com/groups/{groupId}/actions/assign_user`
+
+.. code:: text
+	
+	POST /groups/{groupId}/actions/assign_user
 
 **REQUEST PARAMETERS**
 

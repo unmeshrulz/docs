@@ -3,7 +3,7 @@
 App
 ===
 
-This family of device APIs provided by dronahq.js provides an easy way interact with a particulat instance of a micro-app.
+The App API provides an easy way interact with a particular instance of a micro-app.
 
 It has the following method(s) -
 
@@ -14,7 +14,7 @@ It has the following method(s) -
 exitapp()
 ---------
 
-This method exists the current instance of the micro-app.
+Using this method allows you to exist the current instance of the micro-app.
 
 .. code:: javascript
 

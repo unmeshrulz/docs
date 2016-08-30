@@ -29,10 +29,10 @@ Following Device APIs allow micro-apps to interact with the DronaHQ Client Conta
    
 Following Device APIs allow micro-apps to access device hardware via the Cordova plugins integrated into our Client App:
 
-	- |Camera| - defines a global navigator.camera object, which provides an API for taking pictures and for choosing images from the device's image library.
+	- |Camera| - defines a global :code:`navigator.camera` object, which provides an API for taking pictures and for choosing images from the device's image library.
 	- |File| - implements a File API allowing read/write access to files residing on the device.
 	- |FileTransfer| - allows download and upload of files to and from the device.
-	- |In App Browser| - provides a web browser view using  :code:`cordova.InAppBrowser.open()` method.
+	- |In App Browser| - provides a web browser view using :code:`cordova.InAppBrowser.open()` method.
 
 .. |User| raw:: html
 
@@ -87,7 +87,7 @@ The REST APIs  portion of the DronaHQ help micro-apps to interact with the Drona
 
 	<a href="api-rest-auth.html" target="_blank">authentication</a>
 	
-The REST APIs include the following methods:
+The REST APIs allow the following actions:
 
 	- |Get Users| - can be used by micro-apps to get a list of users for the given **token key**, ordered chronologically.
 	- |Get User| -  can be used by micro-apps to get the user object for a provided **user id** or **email**.

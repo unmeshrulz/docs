@@ -1,7 +1,7 @@
 System Architecture
 ===================
 
-The DronaHQ platform comprises of 4 major  components. 
+The DronaHQ platform comprises of four major  components. 
 	- :ref:`native-dronahq-container-app`
 	- :ref:`dronahq-micro-apps`
 	- :ref:`dronahq-console`
@@ -17,10 +17,10 @@ The following diagram shows a high-level overview of the DronaHQ system architec
 
 .. _native-dronahq-container-app:
 
-The native DronaHQ container app
+The DronaHQ Container App
 --------------------------------
 
-The Native DronaHQ Container App is the main app that gets deployed to the user's device. The DronaHQ Container App is supported on iOS, Android, and Windows Phone devices. For users that are on devices other than iOS, Android, and Windows Phone, we also provide a Web platform that could be accessed via any HTML5 compliant browser on the user's device. 
+The DronaHQ Container App is the main app that gets deployed to the user's device. The DronaHQ Container App is supported on iOS, Android, and Windows Phone devices. For users that are on devices other than iOS, Android, and Windows Phone, we also provide a Web platform that could be accessed via any HTML5 compliant browser on the user's device. 
 
 The DronaHQ platform comes with a number of pre-built modules, so that you can focus on quickly building a highly functional and great looking micro-apps for your end users.
 
@@ -32,10 +32,10 @@ The DronaHQ platform comes with a number of pre-built modules, so that you can f
 
 .. _dronahq-micro-apps:
 	
-The DronaHQ micro apps
+The DronaHQ Micro-apps
 ----------------------
 
-The DronaHQ micro-apps are the applications that run inside the DronaHQ native containers. Once deployed, the micro-apps are delivered to the container app as a web application or pure content. The micro-apps can be deployed as a zipped package of your application code base, or you could simply host your application on an application server and provide a web URL to the DronaHQ management console. Note that micro-apps that are deployed as zipped packages need a file (index.html) that references all the CSS, JavaScript, image, or any other resources necessary to run the application. The micro-apps are executed in the WebView runtime of the DronaHQ container app.
+The DronaHQ Micro-apps are the applications that run inside the DronaHQ native containers. Once deployed, the micro-apps are delivered to the container app as a web application or pure content. The micro-apps can be deployed as a zipped package of your application code base, or you could simply host your application on an application server and provide a web URL to the DronaHQ management console. Note that micro-apps that are deployed as zipped packages need a file (index.html) that references all the CSS, JavaScript, image, or any other resources necessary to run the application. The micro-apps are executed in the WebView runtime of the DronaHQ container app.
 
 .. image:: images/microapps.png
    :height: 600px
@@ -47,10 +47,10 @@ DronaHQ also supports integration with other native apps already installed on th
 
 .. _dronahq-console:
 	
-The DronaHQ console
--------------------
+The DronaHQ Admin Console
+-------------------------------
 
-The DronaHQ Console is a centralized management console that helps deploy, manage, and analyze micro-apps and content on user's devices. The console provides you with features the ability to:
+The DronaHQ Admin Console is a centralized management console that helps deploy, manage, and analyze micro-apps and content on user's devices. The console provides you with features the ability to:
 
 	- Deploy and manage micro-apps
 	- Create and manage users and groups
@@ -73,10 +73,10 @@ The key sections of the management console include:
 
 .. _dronahq-sdk:
 
-The DronaHQ sdk
+The DronaHQ SDK
 ---------------
 
-The DronaHQ platform provides a powerful JavaScript SDK and set of REST APIs to help developers build micro-apps faster using HTML5  and associated technologies. The DronaHQ JavaScript SDK is built on top of Apache Cordova (https://cordova.apache.org/), a popular mobile framework that allows cross-platform development, and provides access to device native features using JavaScript APIs. So if you are familiar with Apache Cordova, you are already a few steps ahead. 
+The DronaHQ platform provides a powerful JavaScript SDK and set of REST APIs to help developers build micro-apps faster using HTML5  and associated technologies. The DronaHQ JavaScript SDK is built on top of |Apache Cordova|, a popular mobile framework that allows cross-platform development, and provides access to device native features using JavaScript APIs. So if you are familiar with Apache Cordova, you are already a few steps ahead. 
 
 The purpose of DronaHQ SDK  is to provide the core building blocks that help developers build applications (aka micro-apps) faster. Developers own the look and feel, the UI interactions, and the business logic of the micro-app, and you can decide to use any HTML5 framework/library for it. The DronaHQ platform takes care of the security, and overall management your container app, micro-apps, and the users.
 
@@ -85,5 +85,7 @@ The DronaHQ SDK has two main components:
 	- **dronahq.js**: A JavaScript library built on top of Cordova, which combines a core Cordova device APIs and a set of well known Cordova plugins, along with DronaHQ platform specific methods that help you make your app secure and allow you to use native device features.
 	- **REST APIs**: A set of DronaHQ platform APIs that allows developers to program their micro-apps for operations such as sending notifications, getting a list of users, or other similar functions detailed out in their respective sections.
 
+.. |Apache Cordova| raw:: html
 
+   <a href="https://cordova.apache.org/" target="_blank">Apache Cordova</a>
 

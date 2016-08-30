@@ -3,7 +3,7 @@
 Key-value storage
 =================
 
-This family of device APIs provided by the dronahq.js allows a micro-app take leverage of the Container App's secure local storage API. DronaHQ Container App's secure local storage provides an alternative to the localstorage feature of HTML5. Any value assigned to a key must be of the type string.
+This family of device APIs allow micro-apps to leverage of the Container App's secure local storage API. DronaHQ Container App's secure local storage provides an alternative to the localStorage feature of HTML5. Any value assigned to a key must be of the type string.
 
 Method(s)
 
@@ -17,14 +17,14 @@ Method(s)
 Set Item
 --------
 
-This method allows a micro-app to set a string value to a key. 
+This method allows micro-apps to set a string value to a key. 
 
 .. code:: javascript
 
 	DronaHQ.KVStore.setItem(keyName, keyValue, function() {
 		//success callback
 	}, function() {
-		//error callback
+		//fail callback
 	});
 
 .. _get-item:
@@ -32,7 +32,7 @@ This method allows a micro-app to set a string value to a key.
 Get Item
 ---------
 
-This method allows a micro-app to get the string value of a key. 
+This method allows micro-apps to get the string value of a key. 
 
 .. code:: javascript
 
@@ -40,7 +40,7 @@ This method allows a micro-app to get the string value of a key.
 		//success callback
 		var value = data.value;
 	}, function() {
-		//error callback
+		//fail callback
 	});
 
 .. _remove-item:
@@ -48,14 +48,14 @@ This method allows a micro-app to get the string value of a key.
 Remove Item
 ------------
 
-This method allows a micro-app to remove a key and its associated string value. 
+This method allows micro-apps to remove a key and its associated string value. 
 
 .. code:: javascript
 
 	DronaHQ.KVStore.removeItem(keyName, function() {
 		//success callback
 	}, function() {
-		//error callback
+		//fail callback
 	});
 
 .. _clear:
@@ -63,13 +63,13 @@ This method allows a micro-app to remove a key and its associated string value.
 Clear All
 ----------
 
-This method allows a micro-app to remove all key with their associated string value. 
+This method allows micro-apps to remove all key with their associated string value. 
 
 .. code:: javascript
 	
 	DronaHQ.KVStore.clear(function() {
 		//success callback
 	}, function() {
-		//error callback
+		//fail callback
 	});
 

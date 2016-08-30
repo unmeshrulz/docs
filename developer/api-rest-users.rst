@@ -1,7 +1,6 @@
 Users
 ======
-This family of DronaHQ Plugin REST APIs provide read/write access to the DronaHQ users.
-It provide methods to perform the following action(s)-
+DronaHQ Plugin REST API provide read/write access to DronaHQ user(s) through the following action(s)-
 
 	- :ref:`get-all-users`
 	- :ref:`get-user`
@@ -21,8 +20,11 @@ This API returns a list of users within the |scope| of the *tokenkey*, ordered c
 
    <a href="api-documentation-plugin-rest-auth.html" target="_blank">scope</a>
    
-**ENDPOINT**
-:code:`GET https://plugin.api.dronahq.com/users`
+**ENDPOINT** 
+
+.. code-block:: text 
+
+	GET /users
 
 **REQUEST PARAMETERS**
 
@@ -101,7 +103,10 @@ Get user
 This API returns a user object for the provided userId or Email within  the |scope| of the *tokenkey.*
 
 **ENDPOINT**
-:code:`GET https://plugin.api.dronahq.com/users/{userIdORuserEmail}`
+
+.. code-block:: text 
+
+	GET /users/{userIdORuserEmail}
 
 **REQUEST PARAMETERS**
 
@@ -170,7 +175,10 @@ Create users
 This API creates a user account with pre-registered password and group(s) based on the |scope| of the *tokenkey.*
 
 **ENDPOINT**
-:code:`POST https://plugin.api.dronahq.com/users`
+
+.. code-block:: text 
+
+	POST /users
 
 **REQUEST PARAMETERS**
 
@@ -247,7 +255,10 @@ Assign group(s) to a user
 This API can be used to assign a list of groups to a user and can also be used to removes a list of groups assigned to a  user within the |scope| of its *tokenkey*.
 
 **ENDPOINT**
-:code:`PUT https://plugin.api.dronahq.com/users/{userId}/actions/change_group`
+
+.. code-block:: text 
+
+	PUT /users/{userId}/actions/change_group
 
 **REQUEST PARAMETER**
 
@@ -303,7 +314,10 @@ Activate Users
 This API activates registered users based on the |scope| of the *tokenkey.*
 
 **ENDPOINT**
-:code:`DELETE https://plugin.api.dronahq.com/users`
+
+.. code-block:: text 
+
+	PUT /users
 
 **REQUEST PARAMETER**
 
@@ -343,7 +357,10 @@ Deactivate Users
 This API deactivates users based on the |scope| of the *tokenkey.*
 
 **ENDPOINT**
-:code:`DELETE https://plugin.api.dronahq.com/users`
+
+.. code-block:: text 
+
+	DELETE /users
 
 **REQUEST PARAMETER**
 
