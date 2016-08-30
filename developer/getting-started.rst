@@ -7,7 +7,7 @@ With DronaHQ you not only can create new applications, but also integrate any ex
 Whether you are creating a new application on DronaHQ or integrating an existing HTML5 application with DronaHQ , you need to -
 
 	- have a registered |DronaHQ| account.
-	- add the |dronahq.js|, the DronaHQ javascript SDK, to your application.
+	- add |dronahq.js|, the DronaHQ javascript SDK, to your application.
 
 .. |DronaHQ| raw:: html
 
