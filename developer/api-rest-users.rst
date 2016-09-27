@@ -191,7 +191,7 @@ This API creates a user account with pre-registered password and group(s) based 
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
 | pre_register      | bool        | *Required.* Set value to *true*                                                                |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
-| invitee_user      | array       | *Required.* An array of the invitee object                                                     | 
+| invitee_user      | array       | *Required.* An array of the invitee object. A maximum of 50 users can be sent in one request.  | 
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
 
 **Invitee object data**
