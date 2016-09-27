@@ -70,7 +70,7 @@ On success, the HTTP status code in the response header is 200 OK and the respon
 Delete Notification
 --------------------
 
-This API can be used to deletes a notification on the basis of notification id and content id within the |scope| of its *tokenkey*.
+This API can be used to delete a notification on the basis of notification id within the |scope| of its *tokenkey*.
 
 **ENDPOINT**
 
