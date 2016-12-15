@@ -344,7 +344,7 @@ On error, the header status code is an error code and the response body contains
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
 | users_invalid     | array       | A string array of invalid user email.                                                          |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
-| users_not_found   | array       | A string array of user not found in the API key scope.                                         |
+| user_not_exist    | array       | A string array of user not found in the API key scope.                                         |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
 | users_failed	    | array       | A string array of user email on which the operation of activation failed.                      |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
@@ -387,7 +387,7 @@ On error, the header status code is an error code and the response body contains
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
 | users_invalid     | array       | A string array of invalid user email.                                                          |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
-| users_not_found   | array       | A string array of user not found in the API key scope.                                         |
+| user_not_exist    | array       | A string array of user not found in the API key scope.                                         |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
 | users_failed      | array       | A string array of user email on which the operation of deactivation failed.                    |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
