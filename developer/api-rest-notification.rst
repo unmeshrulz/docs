@@ -31,7 +31,8 @@ This API can be used to send notification to one or more users within the |scope
 +===========+=============+=============================================================================================================+
 | token_key | string      | Your API key. Check |authentication| for more details.                                                      |
 +-----------+-------------+-------------------------------------------------------------------------------------------------------------+
-| user_id   | array       | *Required.* A string array of the users DronaHQ ID. A maximum of 50 IDs can be sent in one request.         |
+| user_id   | array       | *Required.* A string array of the DronaHQ user ID or user Email ID. A maximum of 50 IDs can be sent in      |
+|           |             | one request.                                                                                                |
 +-----------+-------------+-------------------------------------------------------------------------------------------------------------+
 | message   | string      | *Required.* Text message to be sent as notification. A maximum of 160 characters are accepted as message.   |
 +-----------+-------------+-------------------------------------------------------------------------------------------------------------+
