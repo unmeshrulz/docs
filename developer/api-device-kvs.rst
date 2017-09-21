@@ -20,9 +20,10 @@ Set Item
 This method allows micro-apps to set a string value to a key. 
 
 .. code:: javascript
-	var options = {
-		global: 1 // The value will be accessible to all microapps. Default value is 0.
-	};
+
+	var options = {};
+	options.global = 1; // 1: Value can be read by all microapps. 0: Only to this microapp.
+	
 	DronaHQ.KVStore.setItem(keyName, keyValue, function() {
 		//success callback
 	}, function() {
