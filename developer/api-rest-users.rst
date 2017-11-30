@@ -277,9 +277,10 @@ This API can be used to assign a list of groups to a user and can also be used t
 +===================+=============+================================================================================================+
 | token_key         | string      | *Required.* Your API key. Check |authentication| for more details                              |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
-| assign_group      | array       | *Optional.* A string array of unique names of groups to be assigned to the user.                |
+| assign_group      | array       | *Optional.* A string array of unique names of groups to be assigned to the user.               |
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
-| remove_group      | array       | *Optional.* A string array of unique names of groups to be removed from the user. This parameter also accepts '*' character as a wildcard to remove all groups.               | 
+| remove_group      | array       |  Optional. A string array of unique names of groups to be removed from the user. 		   |
+| 		    |		  |  This parameter also accepts '*' character as a wildcard to remove all groups.                 | 
 +-------------------+-------------+------------------------------------------------------------------------------------------------+
 
 Please note that either assign_group or remove_group should contain at least one **group name** in the request body.
