@@ -66,7 +66,7 @@ Please note that calling this method only submits the request to the Container A
 	var options = {};
 	options.header = headers;
             
-	DronaHQ.sync.upload(remURL, dronaHQReqMethod, dronaHQReqData, reqImgURI, options);
+	DronaHQ.sync.upload(remUrl, dronaHQReqMethod, dronaHQReqData, reqImgURI, options);
 
 .. _refresh:
 
